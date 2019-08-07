@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+
 }
 
 html, body {
@@ -64,3 +65,133 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+#top nav {
+	display: flex;
+	align-items: center;
+	margin: 25px;
+}
+ .navlinks {
+	 width: 60%;
+	 display: flex;
+	 justify-content: space-between;
+ }
+ nav a{
+	 text-decoration: none;
+	 letter-spacing: 3px;
+	
+ }
+ .companylogo {
+	 width: 40%;
+	 display: flex;
+	 justify-content: flex-end;
+ }
+ 
+ .codepic {
+	display: flex;
+	width: 100%;
+}
+
+ header h1 {
+	 font-size: 50px;
+ }
+
+ .innovation {
+	 width: 100%;
+	 display: flex;
+	 justify-content: space-evenly;
+}
+.innovation h1 {
+	text-align: center;
+	padding: 15px;
+	margin-top: 15px;
+
+}
+
+
+.innovation button {
+	padding: 5px 40px;
+	margin: 1px 18%;
+	font-size: 15px;
+}
+ .middle-img {
+	 width: 100%;
+	 padding: 30px;
+  
+ }
+
+ header.head {
+	border-bottom: 1px solid black;
+ }
+.section2{
+	padding: 20px;
+	width: 100%;
+}
+.top-content {
+	padding: 30px;
+	display: flex;
+	margin-top: 100px;
+	border-top: 1px solid black;
+
+}
+.top-left {
+	padding: 10px;
+
+	
+}
+.top-right {
+	padding: 10px;
+}
+
+.bottom-content {
+	display: flex;
+	padding: 30px;
+	
+}
+.bottom-left {
+	padding: 10px;
+}
+.bottom-content p {
+	margin-right: 20px;
+	padding: 0;
+}
+.bottom-middle {
+	padding:10px;
+}
+.bottom-right {
+
+	padding:10px;
+}
+
+.contact {
+	border-top: 1px solid black;
+	margin-left: 0px;
+	padding: 30px;
+}
+
+.copy {
+	text-align: center;
+	margin-top: 75px;
+	margin-bottom: 100px;
+}
+.services-header-img {
+	width: 100%;
+}
+.services{
+	width: 100%;
+	padding: 24px;
+	margin-bottom: 3%;
+}
+ .services h2 {
+	 font-size: 30px;
+ }
+.middleflex {
+	border-top: 1px solid black;
+	display: flex;
+	width: 100%;
+	padding: 50px;
+}
+.digitalui {
+	display: flex;
+}
