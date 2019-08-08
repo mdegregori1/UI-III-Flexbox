@@ -50,6 +50,8 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box;
+	
+	
 
 }
 
@@ -71,6 +73,7 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	align-items: center;
 	margin: 25px;
+
 }
  .navlinks {
 	 width: 60%;
@@ -86,6 +89,7 @@ h1, h2, h3, h4, h5 {
 	 width: 40%;
 	 display: flex;
 	 justify-content: flex-end;
+	 
  }
  
  .codepic {
@@ -175,23 +179,98 @@ h1, h2, h3, h4, h5 {
 	margin-top: 75px;
 	margin-bottom: 100px;
 }
+ .copy2 {
+	 text-align: center;
+	 margin-top: 75px;
+	 margin-bottom: 25px;
+ }
 .services-header-img {
 	width: 100%;
 }
 .services{
 	width: 100%;
 	padding: 24px;
-	margin-bottom: 3%;
+	margin-bottom: 3h%;
 }
  .services h2 {
 	 font-size: 30px;
  }
-.middleflex {
+
+.bodyofservices {
+	display: flex;
+	flex-wrap: wrap;
 	border-top: 1px solid black;
-	display: flex;
-	width: 100%;
-	padding: 50px;
+	border-bottom: 1px solid black;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	padding-top: 40px;
+	padding-left: 25px;
+	padding-right:25px;
+	padding-bottom: 25px;
+
 }
-.digitalui {
+.bodytop {
 	display: flex;
+	justify-content: space-between;
 }
+.bodytop div {
+	margin: 20px;
+	padding: 15px;
+	background-color: lightgray;
+	border: 1px solid black;
+}
+.bodymiddle {
+	display: flex;
+	justify-content: space-between;
+}
+.bodymiddle div {
+	margin: 20px;
+	padding: 15px;
+	background-color: lightgray;
+	border: 1px solid black;
+}
+.bodybottom {
+	display: flex;
+	justify-content: space-between;
+}
+.bodybottom div {
+	margin: 20px;
+	padding: 15px;
+	background-color: lightgray;
+	border: 1px solid black;
+}
+ button {
+	 padding: 10px;
+	 margin-top: 25px;
+	
+ }
+ ul li{
+	 list-style: square;
+	 list-style-position: inside;
+ }
+ .lastround {
+	 display: flex;
+	 width: 100%;
+ }
+ .lastroundleft {
+	width: 50%;
+	margin: 20px;
+	padding: 15px;
+ }
+ .lastroundright {
+	 width: 50%;
+	 margin: 20px;
+	 padding: 15px;
+	 display:flex;
+	 justify-content: center;
+ }
+ .lastroundleft p {
+	 margin-bottom: 20px;
+ }
+ .lastround li {
+	 padding: 5px;
+ }
+ .services-info-img{
+	 justify-content: center;
+
+ }
