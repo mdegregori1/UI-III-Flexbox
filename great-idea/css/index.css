@@ -190,7 +190,6 @@ h1, h2, h3, h4, h5 {
 .services{
 	width: 100%;
 	padding: 24px;
-	margin-bottom: 3h%;
 }
  .services h2 {
 	 font-size: 30px;
@@ -255,7 +254,7 @@ h1, h2, h3, h4, h5 {
  .lastroundleft {
 	width: 50%;
 	margin: 20px;
-	padding: 15px;
+	padding: 20px;
  }
  .lastroundright {
 	 width: 50%;
